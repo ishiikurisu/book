@@ -1,0 +1,9 @@
+---
+build:
+    local: true
+    commands:
+    - npm install connect serve-static
+execute:
+    local: true
+    commands:
+    - node server.js
