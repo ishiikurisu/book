@@ -7,19 +7,30 @@
 
 body {
   font-family: 'Playfair Display', serif;
-  color: gray;
+  color: black;
   background-color: lightyellow;
-  background-image: image('~/assets/img/paper-texture.png');
+  background-image: url('../img/paper-texture.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 }
 
 /* ##############
    # BOOK COVER #
    ############## */
 
-.reveal .splash {
-  background-image: image('../img/book-leather.jpg');
+.splash {
+  background-image: url('../img/book-leather.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: saddlebrown;
   color: gold;
+}
+
+.splash .badge {
+    background-color: black;
+    border: 3px solid gold;
+    opacity: 0.8;
 }
 
 /* ######################
