@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+/* ###########
+   # OVERALL #
+   ########### */
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: gray;
+  background-color: lightyellow;
+  background-image: image('~/assets/img/paper-texture.png');
+}
+
+/* ##############
+   # BOOK COVER #
+   ############## */
+
+.reveal .splash {
+  background-image: image('../img/book-leather.jpg');
+  background-color: saddlebrown;
+  color: gold;
+}
+
+/* ######################
+   # REGULAR BOOK PAGES #
+   ###################### */
+
+body {
+    
+}
