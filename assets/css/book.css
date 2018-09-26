@@ -9,10 +9,14 @@ body {
   font-family: 'Playfair Display', serif;
   color: black;
   background-color: lightyellow;
-  background-image: url('../img/paper-texture.png');
+  background-image: url('../img/paper-texture-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
+}
+
+.para {
+  text-align: left;
 }
 
 /* ##############
@@ -28,15 +32,15 @@ body {
 }
 
 .splash .badge {
-    background-color: black;
-    border: 3px solid gold;
-    opacity: 0.8;
+  background-color: black;
+  border: 3px solid gold;
+  opacity: 0.8;
 }
 
-/* ######################
-   # REGULAR BOOK PAGES #
-   ###################### */
+/* #################
+   # INDEX LISTING #
+   ################# */
 
-body {
-    
+.index-listing {
+  width: 100%;
 }
